@@ -109,6 +109,8 @@ private:
     const int corridorIdOffset_;
     const int roomsPerZone_ = 4;
     const int lootGenerationDepth_ =5;//How many rooms ahead or behind do we look when generating loot
+    const int foeGenerationDepth_ =5;//How many rooms ahead or behind do we look when generating foes
+    const int encounterSpawnDie = 2;// We will roll a die with this number, and if we roll 0 we spawn an enemy
     const double lootChance_ = 1.0;//chance each champer spawns loot
 
     std::vector<Zone> zoneTemplates_;

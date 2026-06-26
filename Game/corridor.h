@@ -19,6 +19,8 @@ struct Corridor {
     Corridor() {
         type=WALL;
     }
+
+    std::vector<Foe> foes;
 };
 
 #endif //DUNGEONSKETCH_CORRIDOR_H

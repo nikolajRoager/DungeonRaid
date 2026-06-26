@@ -9,7 +9,7 @@
 #include "../shared/item.h"
 
 struct Room {
-    bool discovered=false;
+    bool discovered=true;
     enum Ladder {NONE, UP, DOWN} ladder_=NONE;
     enum Direction{NOWHERE, MINUS_Z, PLUS_Z, MINUS_X,PLUS_X,MINUS_Y,PLUS_Y,HERE};
 

@@ -19,6 +19,11 @@ struct Foe {
         return std::max( itemList[mainItem_]->getMagicDefence(strength_,dexterity_,intelligence_),itemList[otherItem_]->getMagicDefence(strength_,dexterity_,intelligence_));
     }
 
+    ///Level of the enemy, controls when and where they will spawn
+    int getLevel() const {
+        return intelligence_+strength_+dexterity_+maxHealth_;
+    }
+
     int intelligence_=1;
     int strength_=1;
     int dexterity_=1;

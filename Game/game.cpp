@@ -341,7 +341,15 @@ void Game::generateDescriptionText(const std::string& preText,size_t playerID,SD
 
         for (const auto& [dir,corridorId] : possibleExitIds) {
             if (corridors_[corridorId].type==Corridor::OPEN) {
-                mainViewText_+="There is a corridor going "+dir+"\n\n";
+                if (corridors_[corridorId].foes.empty())
+                    mainViewText_+="There is an open corridor going "+dir+"\n\n";
+                else {
+                    mainViewText_+="The corridor "+dir+" is blocked by the following vile foes:\n";
+                    for (const auto &foe : corridors_[corridorId].foes) {
+                        mainViewText_+=foe.name_+" (level "+std::to_string(foe.getLevel())+")\n";
+                    }
+                    mainViewText_+="Go "+dir+" to initiate combat!\n\n";
+                }
             }
             else if (corridors_[corridorId].type==Corridor::DOOR) {
                 if (switchesActive_[corridors_[corridorId].id])
@@ -765,6 +773,44 @@ void Game::generate(uint32_t randomSeed) {
     int finalReward = legendaryRewards_[legendaryRewardDistribution(randomGenerator)];
     rooms_[mainBranch.back()].itemIds.emplace_back(finalReward);
 
+    //Now spawn enemies
+
+    //Like loot value, enemy levels depend on the depth, but that depth is ever so slightly randomized
+    std::uniform_int_distribution<int> enemyDist(-foeGenerationDepth_, foeGenerationDepth_);
+    int highestEnemyLevel=0;
+    for (const auto &foe : foeTemplates_) {
+        highestEnemyLevel=std::max(highestEnemyLevel,foe.getLevel());
+    }
+
+    //The worst we are going to get is three of the highest level enemy
+    int maxSpawnLevel = 3*highestEnemyLevel;
+    std::uniform_int_distribution<int> enemySpawnDist(0,encounterSpawnDie );
+
+
+    for (int zId = 0; zId<dungeonDepth; zId++)
+        for (int xId = 0; xId<dungeonWidth; xId++) {
+            for (int yId = 0; yId<dungeonHeight; yId++) {
+                for (int offset = 0; offset<2; offset++)
+                    {
+                    if (xId+1==dungeonWidth && offset==0)
+                        continue;
+                    if (yId+1==dungeonHeight&& offset==1)
+                        continue;
+
+                    std::cout<<xId<<" "<<yId<<" "<<offset<<" "<<zId<<std::endl;
+                    int corridorId = xId+(yId*2+offset)*dungeonWidth+zId*corridorIdOffset_;
+                    if (corridors_[corridorId].type==Corridor::OPEN) {
+                        //May spawn enemies
+                        if (enemySpawnDist(randomGenerator)==0) {
+
+                            //TEMP
+                            corridors_[corridorId].foes.emplace_back(foeTemplates_[0]);
+                        }
+                    }
+
+                }
+            }
+        }
 
     //FINALLY, place the adventurers in the starting room
     for (auto &adventurer: adventurers_) {
@@ -1111,10 +1157,13 @@ void Game::render(SDL_Renderer *renderer, int screenWidth, int screenHeight, con
 
                                 int xTexture = corridorXRect.x+corridorXRect.w/2;
                                 int yTexture = corridorXRect.y;
-                                //TODO check for enemies
                                 if (corridors_[corridorId].type==Corridor::DOOR) {
                                     lockMapTexture_->render(xTexture,yTexture,0,0,0,renderer);
                                     xTexture+=lockMapTexture_->getWidth();
+                                }
+                                if (corridors_[corridorId].type==Corridor::OPEN && !corridors_[corridorId].foes.empty()) {
+                                    enemiesMapTexture_->render(xTexture,yTexture,0,0,0,renderer);
+                                    xTexture+=enemiesMapTexture_->getWidth();
                                 }
 
                             }
@@ -1142,6 +1191,10 @@ void Game::render(SDL_Renderer *renderer, int screenWidth, int screenHeight, con
                                 if (!switchesActive_[corridors_[corridorId].id])
                                     lockMapTexture_->render(xTexture,yTexture,0,0,0,renderer);
                                 xTexture+=lockMapTexture_->getWidth();
+                            }
+                            if (corridors_[corridorId].type==Corridor::OPEN && !corridors_[corridorId].foes.empty()) {
+                                enemiesMapTexture_->render(xTexture,yTexture,0,0,0,renderer);
+                                xTexture+=enemiesMapTexture_->getWidth();
                             }
                         }
                     }
