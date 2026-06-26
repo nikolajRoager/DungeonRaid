@@ -30,7 +30,6 @@
         include_directories(${SDL2_INCLUDE_DIR})
         link_directories(${SDL2_LIB_DIR})
 
-        # SDL2main MUST come before SDL2 — it provides WinMain which bootstraps into your main()
         link_libraries(mingw32)
         link_libraries(SDL2main)
         link_libraries(SDL2)
