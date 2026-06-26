@@ -1,0 +1,1398 @@
+{
+  "startingWeapons": 14,
+  "items":
+  [
+    {
+      "name": "Empty hand",
+      "description": "Not the worlds best choice of weapon",
+      "sharp": false,
+      "value": "WORTHLESS",
+      "weight": "WEIGHTLESS",
+      "physicAttackFactors": [
+        1, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        1, 1, 0, 1, 0, 1, 1, 2
+      ],
+      "aimFactors": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "blockFactors": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicDefenceFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Knife",
+      "description": "Has low damage but has excellent accuracy",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicAttackFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "aimFactors": [
+        3,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "blockFactors": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1
+      ],
+      "magicDefenceFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Club",
+      "description": "Basic bonking stick, has high base damage but no scaling",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        4,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicAttackFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "aimFactors": [
+        3,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "blockFactors": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicDefenceFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Longsword",
+      "description": "An elegant weapon, requires both strength and dexterity to use effectively",
+      "sharp": true,
+      "value": "COMMON",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        2,
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicAttackFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "aimFactors": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1
+      ],
+      "blockFactors": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1
+      ],
+      "magicDefenceFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Longbow",
+      "description": "A large bow cut from ash, requires both strength and dexterity to use effectively",
+      "sharp": true,
+      "value": "COMMON",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1
+      ],
+      "magicAttackFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "aimFactors": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1
+      ],
+      "blockFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicDefenceFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Composite bow",
+      "description": "A compact type of bow invented by the eastern nomads, damage scales with dexterity, not strength",
+      "sharp": true,
+      "value": "RARE",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "magicAttackFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "aimFactors": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1
+      ],
+      "blockFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicDefenceFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Zweihander",
+      "description": "A very large sword, requires a strong wielder",
+      "sharp": true,
+      "value": "RARE",
+      "weight": "HEAVY",
+      "physicAttackFactors": [
+        -1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicAttackFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "aimFactors": [
+        1,
+        1,
+        0,
+        1,
+        2,
+        3,
+        0,
+        1
+      ],
+      "blockFactors": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1
+      ],
+      "magicDefenceFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Iron wand",
+      "description": "Basic magic wand, its high base magic makes it suitable for novice magicians",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicAttackFactors": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        2
+      ],
+      "aimFactors": [
+        3,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "blockFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicDefenceFactors": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Copper Wand",
+      "description": "A wand made of copper has higher potential than iron, but is harder to use",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicAttackFactors": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "aimFactors": [
+        3,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "blockFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicDefenceFactors": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Silver Wand",
+      "description": "Silver is the most potent magical material (and the most expensive), but requires a powerful witch or wizard to use effectively",
+      "sharp": false,
+      "value": "RARE",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicAttackFactors": [
+        -4,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2,
+        1
+      ],
+      "aimFactors": [
+        3,
+        1,
+        0,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "blockFactors": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "magicDefenceFactors": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Buckler",
+      "description": "A light and nimble shield",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        2, 1, 0, 1, 1, 2, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Scutum",
+      "description": "A hefty wooden shield",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        3, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Blessed Silver Talisman",
+      "description": "Provides some protection against evil magic",
+      "sharp": false,
+      "value": "RARE",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        2, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Blessed Shield",
+      "description": "Protects against magic as well as physical attacks",
+      "sharp": false,
+      "value": "RARE",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        2, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        2, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Bronze knife",
+      "description": "Technically a weapon",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        2, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        3, 1, 0, 1, 1, 1, 0, 1
+      ],
+      "blockFactors": [
+        1, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Pottery shard",
+      "description": "Maybe we can sell this to an archeologist",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Wooden carving",
+      "description": "Neat",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        1, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Purse with copper coins",
+      "description": "Maybe we will buy something nice, but not expensive",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Bronze tipped spear",
+      "description": "Like Achilles used",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        3, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        1, 1, 0, 1, 2, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 0, 1, 2, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Cast iron pan",
+      "description": "Useful kitchen appliance",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        2, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        1, 1, 0, 1, 2, 1, 0, 1
+      ],
+      "blockFactors": [
+        1, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Small stone figurine",
+      "description": "Maybe we can sell it to some tourists",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        0, 1, 1, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 1, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        1, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Large iron bowl",
+      "description": "Perfect for making soup",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "HEAVY",
+      "physicAttackFactors": [
+        0, 1, 2, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 1, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Iron anvil",
+      "description": "We could sell it to a blacksmith",
+      "sharp": false,
+      "value": "COMMON",
+      "weight": "VERY_HEAVY",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Bronze axe",
+      "description": "A hefty weapon",
+      "sharp": true,
+      "value": "RARE",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        2, 1, 1, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        1, 1, 0, 1, 1, 2, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Bronze sword",
+      "description": "Like the heroes of old",
+      "sharp": true,
+      "value": "RARE",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        1, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Well preserved parchment",
+      "description": "Doesn't contain any useful spells, but we can sell it",
+      "sharp": false,
+      "value": "RARE",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "small bronze figurine",
+      "description": "ugly... but will still fetch a pretty penny",
+      "sharp": false,
+      "value": "RARE",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        1, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Large painting",
+      "description": "Looks a little faded, but we can still sell it",
+      "sharp": false,
+      "value": "RARE",
+      "weight": "HEAVY",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Head of a stone statue",
+      "description": "We can sell this to a museum",
+      "sharp": false,
+      "value": "RARE",
+      "weight": "HEAVY",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "small pearl necklace",
+      "description": "pretty",
+      "sharp": false,
+      "value": "RARE",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Small gold ring",
+      "description": "doesn't carry any useful magical effects, but gold is gold",
+      "sharp": false,
+      "value": "RARE",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Purse of silver coins",
+      "description": "Bling bling",
+      "sharp": false,
+      "value": "RARE",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Purse of gold coins",
+      "description": "Kaching",
+      "sharp": false,
+      "value": "RARE",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Gold necklace",
+      "description": "Beautiful",
+      "sharp": false,
+      "value": "EPIC",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Bejeweled necklace",
+      "description": "Bling bling",
+      "sharp": false,
+      "value": "EPIC",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Bejeweled scepter",
+      "description": "Although it looks like a wand, it doesn't have any magic powers",
+      "sharp": false,
+      "value": "EPIC",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Small gold figurine",
+      "description": "Nice trinket",
+      "sharp": false,
+      "value": "EPIC",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Large gem",
+      "description": "colourful",
+      "sharp": false,
+      "value": "EPIC",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Gold sword",
+      "description": "A horrible weapon, but valuable",
+      "sharp": true,
+      "value": "EPIC",
+      "weight": "HEAVY",
+      "physicAttackFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 1, 2, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Silver sword",
+      "description": "Shiny and sharp",
+      "sharp": true,
+      "value": "EPIC",
+      "weight": "MEDIUM",
+      "physicAttackFactors": [
+        2, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        2, 1, 0, 1, 1, 2, 0, 1
+      ],
+      "blockFactors": [
+        1, 1, 1, 2, 1, 2, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Bronze statute",
+      "description": "Looks like some ancient naked hero",
+      "sharp": false,
+      "value": "EPIC",
+      "weight": "HEAVY",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Isaac Newton's flaming lazer-sword",
+      "description": "Cuts through literally anything",
+      "sharp": true,
+      "value": "LEGENDARY",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        8, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        4, 1, 0, 2, 1, 1, 0, 1
+      ],
+      "blockFactors": [
+        8, 1, 0, 1, 1, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        8, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Philosopher's stone",
+      "description": "Can turn lead to gold, is imbued with a powerful magical aura",
+      "sharp": false,
+      "value": "LEGENDARY",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        8, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Saint Peter's spare keys",
+      "description": "Essentially a get out of hell free card",
+      "sharp": false,
+      "value": "LEGENDARY",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        8, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "the answer to the life, the universe, and everything",
+      "description": "42",
+      "sharp": false,
+      "value": "LEGENDARY",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        8, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "A quantum theory for gravity",
+      "description": "It even fits on the back of an envelope",
+      "sharp": false,
+      "value": "LEGENDARY",
+      "weight": "LIGHT",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        8, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "Ark of the covenant",
+      "description": "how did that thing get here",
+      "sharp": false,
+      "value": "LEGENDARY",
+      "weight": "HEAVY",
+      "physicAttackFactors": [
+        0, 1, 2, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 2, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        8, 1, 0, 1, 0, 1, 0, 1
+      ]
+    },
+    {
+      "name": "A working quantum computer",
+      "description": "Allows you to break cryptography",
+      "sharp": false,
+      "value": "LEGENDARY",
+      "weight": "HEAVY",
+      "physicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "magicAttackFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "aimFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ],
+      "blockFactors": [
+        0, 1, 1, 2, 0, 1, 0, 1
+      ],
+      "magicDefenceFactors": [
+        0, 1, 0, 1, 0, 1, 0, 1
+      ]
+    }
+  ]
+}

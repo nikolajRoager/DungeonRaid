@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Zombie",
+    "intelligence": 1,
+    "strength": 2,
+    "dexterity": 1,
+    "health": 2,
+    "mainItem":"Empty hand",
+    "otherItem": "Empty hand"
+  },
+  {
+    "name": "Skeleton Scout",
+    "intelligence": 1,
+    "strength": 3,
+    "dexterity": 2,
+    "health": 2,
+    "mainItem":"Knife",
+    "otherItem": "Empty hand"
+  },
+  {
+    "name": "Skeleton Swordsman",
+    "intelligence": 1,
+    "strength": 3,
+    "dexterity": 2,
+    "health": 2,
+    "mainItem":"Longsword",
+    "otherItem": "Empty hand"
+  },
+  {
+    "name": "Skeleton Archer",
+    "intelligence": 1,
+    "strength": 3,
+    "dexterity": 3,
+    "health": 2,
+    "mainItem":"Composite bow",
+    "otherItem": "Empty hand"
+  },
+  {
+    "name": "Skeleton Captain",
+    "intelligence": 2,
+    "strength": 4,
+    "dexterity": 3,
+    "health": 2,
+    "mainItem":"Zweihander",
+    "otherItem": "Empty hand"
+  },
+  {
+    "name": "Skeleton mage",
+    "intelligence": 3,
+    "strength": 1,
+    "dexterity": 2,
+    "health": 2,
+    "mainItem":"Iron wand",
+    "otherItem": "Blessed Silver Talisman"
+  },
+  {
+    "name": "Troll",
+    "intelligence": 1,
+    "strength": 6,
+    "dexterity": 1,
+    "health": 4,
+    "mainItem":"Club",
+    "otherItem": "Empty hand"
+  },
+  {
+    "name": "Orc Scout",
+    "intelligence": 2,
+    "strength": 4,
+    "dexterity": 3,
+    "health": 3,
+    "mainItem":"Knife",
+    "otherItem": "Buckler"
+  },
+  {
+    "name": "Orc Swordsman",
+    "intelligence": 2,
+    "strength": 4,
+    "dexterity": 3,
+    "health": 3,
+    "mainItem":"Longsword",
+    "otherItem": "Buckler"
+  },
+  {
+    "name": "Orc Archer",
+    "intelligence": 2,
+    "strength": 4,
+    "dexterity": 3,
+    "health": 3,
+    "mainItem":"Longbow",
+    "otherItem": "Empty hand"
+  },
+  {
+    "name": "Orc Hoplite",
+    "intelligence": 3,
+    "strength": 4,
+    "dexterity": 3,
+    "health": 3,
+    "mainItem":"Bronze tipped spear",
+    "otherItem": "Blessed Shield"
+  },
+  {
+    "name": "Orc necromancer",
+    "intelligence": 5,
+    "strength": 1,
+    "dexterity": 3,
+    "health": 2,
+    "mainItem":"Silver Wand",
+    "otherItem": "Empty hand"
+  }
+]

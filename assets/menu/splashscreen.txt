@@ -1,0 +1,4 @@
+This game is meant to be played on a 1920x1080 screen.
+If you play on a smaller screen, you may want to go into the settings menu (or open usersettings.json) and scale down font-size accordingly
+
+Press enter to start
